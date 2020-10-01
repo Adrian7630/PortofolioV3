@@ -42,11 +42,13 @@
     color: var(--main-color);
     border-radius: 4px;
     transition: all 0.5s ease-out;
+    outline: none;
     
 }
 
 .nav-link:active
 {
+    outline: none;
     color: var(--main-color);
 }
 
@@ -80,6 +82,7 @@
 {
     transform: rotate(180deg);
     transition: all 1s ease-in-out;
+    outline: none;
 }
 
 /* <----------           MOBILE NAVBAR            ------------->*/
@@ -122,6 +125,7 @@
 
     .NavbarMenu-Mobile:hover
     {
+        outline: none;
         background-color: white;
     }
 
