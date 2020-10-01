@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root
+{
+    --second-color: #414040;
+}
+
+.Resume
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:  #131212;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Resume-title
+{
+    font-size: 30px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+.Resume-title strong
+{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--main-color);
+}
+
+
+
+.Resume-Education-title
+{
+    display: flex;
+    text-align: flex-start;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted var(--main-color);
+    width: 70%;
+}
+
+.Resume-Experience-title
+{
+    display: flex;
+    text-align: flex-start;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted var(--main-color);
+    width: 70%;
+}
+
+.Resume-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+.Resume-Education
+{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.Resume-Experience
+{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Experience-box
+{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding: 55px;
+    width: 600px;
+    height: 450px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: var(--second-color);
+    filter: brightness(80%);
+    
+}
+
+.Education-box
+{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 55px;
+    width: 600px;
+    height: 450px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: var(--second-color);
+    filter: brightness(80%);
+}
+
+.Education-box span 
+{
+    padding: 10px;
+    font-size: 24px;
+    color: var(--main-color);
+
+}
+
+.Education-box p
+{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.Education-box h3
+{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(138, 132, 132);
+
+}
+
+.Education-box h4 
+{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.Education-box i
+{
+    padding-right: 10px;   
+}
+
+
+.Experience-box span 
+{
+    padding: 10px;
+    font-size: 24px;
+    color: var(--main-color);
+
+}
+
+.Experience-box p
+{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.Experience-box h3
+{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(138, 132, 132);
+
+}
+
+.Experience-box h4 
+{
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.Experience-box i
+{
+    padding-right: 10px;   
+}
+
+
+@media screen and (max-width: 675px)
+{
+    .Experience-box
+    {
+        padding: 35px;
+        width: 400px;
+        height: 750px;
+        margin-bottom: 15px;
+    }
+
+    .Education-box
+    {
+        padding: 35px;
+        width: 400px;
+        height: 750px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 541px)
+{
+    .Experience-box
+    {
+        padding: 15px;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+
+    .Education-box
+    {
+        padding: 15px;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+    .Education-box span 
+    {
+        font-size: 14px;
+    }   
+
+    .Education-box p
+    {
+        font-size: 14px;
+    }
+
+    .Education-box h3
+    {
+        font-size: 14px;
+    }
+
+    .Education-box h4 
+    {
+        font-size: 14px;
+    }
+
+    .Experience-box span 
+    {
+        font-size: 14px;
+    }
+
+    .Experience-box p
+    {
+        font-size: 14px;
+    }
+
+    .Experience-box h3
+    {
+        font-size: 14px;
+    }
+
+    .Experience-box h4 
+    {
+        font-size: 14px;
+    }
+
+    .Resume-title
+    {
+        font-size: 24px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 321px)
+{
+    .Experience-box
+    {
+        padding: 10px;
+        width: 250px;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+
+    .Education-box
+    {
+        padding: 15px;
+        width: 250px;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+    .Education-box span 
+    {
+        font-size: 12px;
+    }   
+
+    .Education-box p
+    {
+        font-size: 12px;
+    }
+
+    .Education-box h3
+    {
+        font-size: 12px;
+    }
+
+    .Education-box h4 
+    {
+        font-size: 12px;
+    }
+
+    .Experience-box span 
+    {
+        font-size: 12px;
+    }
+
+    .Experience-box p
+    {
+        font-size: 12px;
+    }
+
+    .Experience-box h3
+    {
+        font-size: 12px;
+    }
+
+    .Experience-box h4 
+    {
+        font-size: 12px;
+    }
+
+    .Resume-title
+    {
+        font-size: 18px;
+
+    }
+
+}
